@@ -10,6 +10,6 @@ Just add the TinyLogger package to your project, import it, and start logging.
 # Example
 ```
 import Foundation
-import TinyLogger
-TinyLogger.log.info(msg: "Hello, World!", format: "%T [%t] %f: %m", dateFormat: "HH:MM:SS.SSSS")
+import TinyLogger // Imports TinyLogger
+TinyLogger.log.info(msg: "Hello, World!", format: "%T [%t] %f: %m", dateFormat: "HH:MM:SS.SSSS") // Logs the message
 ```
